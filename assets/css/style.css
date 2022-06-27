@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* estilização dos blocos */
+
+.bloco-1{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(70, 70, 134);
+}
+
+.bloco-2{
+    float: right;
+    width: 75%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.minha-foto{
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+    border: 5px solid rgb(144, 144, 216);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47%;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.ul-1 li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+
+.links{
+    text-decoration: dashed;
+    color: white;
+    
+}
+
+.links:hover, .email:hover{
+ color: grey;
+}
+
+/* estilização da página sobre */
+
+.Sobre{
+    margin-left: 3%;
+    margin-top: 190px;
+}
+
+.sobrenome, .email{
+    color: rgb(70, 70, 134);
+    text-decoration: dashed;
+}
+
+.nome{
+    font-size: 50px;
+}
+
+.dados{
+    margin-top: 10px;
+}
+
+.descrição{
+    margin-top: 50px;
+}
+
+.image-1, .image-2, .image-3{
+    width: 50px;
+    border-radius: 60px;
+    margin-top: 45px;
+}
+
+.image-2, .image-3{
+    margin-left: 20px;
+}
+
+.image-1:hover, .image-2:hover, .image-3:hover {
+    opacity: 0.7;
+}
+
+/* estilização da página conhecimentos */
+
+.conhecimentos{
+    margin-left: 5%;
+    margin-top: 180px;
+    font-size: 30px;
+}
+
+.ol li{
+    margin-top: 15px;
+}
+
+/* estilização da página objetivos */
+
+.objetivos{
+    margin-left: 5%;
+    margin-top: 180px;
+    font-size: 30px;
+}
+
+.ul-objetivos li{
+    margin-top: 20px;
+    list-style-type: square;
+}
