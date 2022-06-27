@@ -60,6 +60,7 @@
 .Sobre{
     margin-left: 3%;
     margin-top: 190px;
+    
 }
 
 .sobrenome, .email{
@@ -72,7 +73,7 @@
 }
 
 .dados{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .descrição{
